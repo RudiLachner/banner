@@ -2,6 +2,10 @@
 
 Dieses Repository enthält einen interaktiven Banner mit animierten Elementen, die mithilfe von [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/) erstellt wurden. Ziel des Projekts ist es, verschiedene Animationstechniken auszuprobieren, wie sie für Web-Interfaces, Werbebanner oder interaktive Designs verwendet werden können.
 
+## Banner 01 Link
+
+[https://banner-01.netlify.app]
+
 ## 🚀 Funktionen
 
 - **Sequenzielle Animationen**: Die Elemente animieren sich nacheinander automatisch beim Laden der Seite.
