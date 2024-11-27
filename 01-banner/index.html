@@ -63,14 +63,14 @@
         // Element 1 - easeInSine
         timeline
           .to("#element1", {
-            duration: 1,
-            x: 200, // Bewegung nach rechts
-            ease: "sine.in",
+            duration: 2,
+            x: 100, // Bewegung nach rechts
+            ease: "elastic.inOut",
           })
           .to("#element1", {
-            duration: 1,
+            duration: 1.5,
             x: 0, // Zurück zur Ausgangsposition
-            ease: "sine.in",
+            ease: "elastic.inOut",
           });
 
         // Element 2 - easeInOutBack
