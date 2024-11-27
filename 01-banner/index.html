@@ -26,10 +26,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3rem;
+        font-size: 1.5rem;
         font-weight: bold;
         color: #fff;
-        width: 30%;
+        width: 40%;
         height: 40%;
       }
 
@@ -60,7 +60,7 @@
     <script>
       // Funktion zum Starten der Sequenz
       function startAnimationSequence() {
-        const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1.5 });
+        const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1 });
         // Element 1 - easeInSine
         timeline
           .to("#element1", {
